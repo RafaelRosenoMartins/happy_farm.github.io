@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./css/LogCad.css">  
+
+  <title> Happy Farm | Login</title>
+  
+</head>
+
+<body>
+
+<center>  
+<form  class="login-form"z>
+  <div class="container">
+
+    <div id="error_msg"></div>
+
+    <div class="login__header">
+     <img src="./img/img_logo.png" width="500px" height="250px">
+    </div>
+    <label id="labelUsuario"></label><br>
+    <input type="text" id="usuario" placeholder="Username" class="input_login" autocomplete="off" required><br>
+
+    <label id="labelPassword"></label>
+    <br><input type="password" id="password" placeholder="User Password" class="input_login" autocomplete="off" required>
+    <img src="./img/olho.png" class="icon" width="20px" height="20px">
+    <button class="login__button" type="button" onclick="entrar()"> Play </button> <br><br>
+
+    <p> Don't have an account? <a href="cadastro.html">Register</a></p>
+    
+  </div>
+</form>
+</center>
+
+<script type="text/javascript" src="./js/login.js"> </script>
+</body>
+
+
+</html>
